@@ -1,0 +1,78 @@
+#
+![](https://github.com/eludadev/css-docs/blob/main/assets/css_selectors.png?raw=true)
+
+Combinators
+- li.red - Any li with the Class of red
+- Descendant Selector - Selects all <b> elements inside <div> regardless of its nesting level
+# div b {}
+# <div>
+#   <span>
+#     <b>Nested</b>
+#   </span>
+# </div>
+
+- Child Selector - Selects only <p> elements that are direct children of <div>
+div > p # selects only one level of nested elements
+<div>
+  <header> # direct child of div
+    <h1>H</h1>
+    <p>P</p> # Selected
+  </header>
+  <footer> # direct child of div
+    <section> # not direct child
+      <h2>Nested</h2>
+      <p>Nested</p> # not Selected
+    </section>
+  </footer>
+<div>
+
+- General Sibling - Selects all <span> elements that are siblings of <div>
+div ~ span # does not select nested elements and works on the same scope
+<div> # reference
+  <span>Selected</span> # sibling, so Selected
+  <div>
+    <span>Not Selected</span> # nested, different parent
+  </div>
+  <span>Also Selected</span> # sibling, so Selected
+  <section>
+    <span>Not Selected</span> # different parent
+  </section>
+</div>
+
+- Adjacent Sibling - Next to or beside something, with nothing in between
+h1 + p # only the first <p> right after <h1>
+<h1>Selected</h1>
+<p>Selected</p>
+<p>Not Selected</p> # because it's not immediately after <h1>
+
+Pseudo-class :targets elements based on their state (e.g., :hover, :focus) ?
+p:last-of-type { # target last-of-type <p>
+  color: white;
+  font-style: italic;
+}
+Pseudo-element :targets a specific part of an element (e.g., ::before, ::after) ?
+
+Attribute Selector # Targets elements with specific attributes or attribute values
+- input[type="text"] { width: 100%; }
+
+Negation Selector # Excludes elements that match a certain rule
+- :not(.active) { opacity: 0.5; }
+
+Advanced Attribute Selectors # Used for partial matches
+[class^="btn-"] { padding: 8px; } # starts with
+[class$="-icon"] { margin: 5px; } # ends with
+[class*="menu"] { display: block; } # contains
+
+Specificity Hierarchy
+- Inline styles > IDs > Classes, attributes, pseudo-classes > Elements, pseudo-elements
+- "order matters" concept only works when all your rules have the same specificity
+
+URL fragments # used to navigate to a specific part of a webpage
+
+# Terms
+  Naming Convention
+- BEM methodology (Block, Element, Modifier)
+  https://getbem.com/introduction
+
+# Vocab
+Synopsis: brief summary or general survey of something

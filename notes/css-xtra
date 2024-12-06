@@ -1,0 +1,22 @@
+#
+# Grid
+# - explicit dimensions clearly and directly defined sizes by you (e.g., width, height)
+# - implicit dimensions sizes determined by the browser based on content or context
+# Animations and Transitions
+# Variables -
+# Functions
+# Advanced Selectors -
+# Architecture
+
+- list classic CSS problems that are still relevant in modern CSS, like center a div
+- list CSS quirks that are still relevant in modern web development
+- cascading problem ?
+- CSS topics i should learn to avoid relying on frameworks
+
+# Resources
+https://rehansaeed.com/css-general-rules-of-thumb
+https://youtu.be/vmJ9j6BdX_g?si=kksZx0s3l0i2C-aU
+https://www.joshwcomeau.com/css/custom-css-reset/
+
+Each step's styles override the previous ones, but more specific styles override less specific ones
+Media Queries - apply styles based on device characteristics

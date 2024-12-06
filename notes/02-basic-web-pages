@@ -1,0 +1,15 @@
+#
+Block element  - takes the full width of its container (new line, full width)
+Inline element - stays within the content flow (does not break line, only takes needed width)
+
+Semantic elements are tags that clearly describe their content's purpose, improving accessibility, readability, and SEO
+Empty HTML Elements - self-closing <br> <hr>
+
+# Terms
+PostScript
+WYSIWYG - What You See Is What You Get
+
+# Vocab
+Ethereal: extremely delicate and light in a way that seems not to be of this world
+Semantic: something meaningful or having significance
+Parse: to break down or analyze something into smaller components to understand or interpret it

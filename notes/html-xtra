@@ -1,0 +1,13 @@
+#
+Forms
+- action, method
+Tables
+
+Semantic
+![](https://static.semrush.com/blog/uploads/media/cc/85/cc85d452a743e27f68d426df35e4da7d/EN-Semantic-Search-Non-Semantic.webp)
+- <article> Represents self-contained, independent content
+- <section> Groups related content under a common theme
+
+ARIA (Accessible Rich Internet Applications)
+Custom Data Attributes
+Embedded Content iframe - inline
