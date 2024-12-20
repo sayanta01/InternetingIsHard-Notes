@@ -1,8 +1,6 @@
 #
-https://yoksel.github.io/flex-cheatsheet
 https://flexbox.malven.co
 ![](https://raw.githubusercontent.com/eludadev/css-docs/main/assets/css_flexbox.png)
-# ![](https://raw.githubusercontent.com/eludadev/css-docs/main/assets/css_grid.png)
 
 # Row --
 → justify-content - main (horizontal)
@@ -29,18 +27,13 @@ Align-content - unlocked on flex-wrap: wrap
 - only works when items wrap to multiple lines
 - aligns the entire group of flex lines on the cross axis
 
-# Resources
+# Res
 Selectors
 https://flukeout.github.io
 
 Flexbox
 # https://flexboxfroggy.com
 https://mastery.games/flexboxzombies
-
-Grid
-https://grid.malven.co
-https://cssgridgarden.com
-https://www.euismod.dev/#/learn
 
 Advanced
 https://css-speedrun.netlify.app

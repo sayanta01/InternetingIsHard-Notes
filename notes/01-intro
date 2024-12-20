@@ -4,9 +4,9 @@ https://html.spec.whatwg.org/multipage/
 Organizing HTML into reusable templates
 Standing up a web server
 Pointing a domain name at your server
-- Configure DNS Records
-  - A[Addr] Record: link domain to IPv4
-  - AAAA Record: link domain to IPv6
+- configure DNS records
+- A[Addr] record: link domain to IPv4
+- AAAA record: link domain to IPv6
 
 Build Tools
 - webpack

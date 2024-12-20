@@ -1,6 +1,6 @@
 #
 *,
-*::before, # Pseudo-elements
+*::before, # pseudo-elements
 *::after {
   margin: 0 # common reset
   padding: top right bottom left (clockwise)
@@ -8,17 +8,14 @@
 }
 
 Without 'box-sizing: border-box' padding and border are separate from the content
-With 'box-sizing: border-box' 
-- the width and height include the content, padding, and border, so the element fits the specified size exactly
+With 'box-sizing: border-box'
+- the width and height include the content, padding and border so the element fits the specified size exactly
 - margin doesn't count as part of the element's size, regardless of the box-sizing
 
-# Size of a <div>
-# - Total Width  = Content W  Padding (L  R) + Border (L  R) + Margin (L  R)
-# - Total Height = Content H  Padding (T  B) + Border (T  B) + Margin (T  B)
-
 Vertical Margin Collapsing
-Boxes can be inline and block-level
 Aligning Boxes
+- boxes can be inline and block-level
+- centering w/ auto-margin
 
 Both <div> and <span> are “container” elements that don’t have any affect on the semantic structure of an HTML document
 Start looking at the websites you visit through the lens of the CSS box model, and you’ll see this stuff literally everywhere

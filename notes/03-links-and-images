@@ -1,23 +1,18 @@
 #
 ⚓Anchor
 
-Element    - Box, (adds meaning to the content it contains)
-Attriibute - Label on the box, (adds meaning to the Element it's attached to)
-- Different elements allow different attributes
+Element   - sentence (Box)
+Property  - word (Label on the box)
+Attribute - letter
+# - different elements have different attributes
 
 Hypertext REFerence
 Root-relative links are some of the most useful kinds of links
 ![_blank](_parent_top.png)
 
-Focus on Accessibility, Usability, Performance
 Slugs are page's title but simplified and optimized (SEO-friendly)
-- The names of folders and files determine the slugs for web pages
-- They’re visible to the user, which means you should put in as much effort into naming your files
-
-# <figure>
-# group media
-# <figcaption> </figcaption>
-# </figure>
+- the names of folders and files determine the slugs for web pages
+- they’re visible to the user, which means you should put in as much effort into naming your files
 
 Image Dimensions
 Aspect-ratio

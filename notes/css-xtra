@@ -1,22 +1,30 @@
 #
-# Grid
-# - explicit dimensions clearly and directly defined sizes by you (e.g., width, height)
-# - implicit dimensions sizes determined by the browser based on content or context
 # Animations and Transitions
-# Variables -
-# Functions
-# Advanced Selectors -
-# Architecture
+# Variables --
+Functions
+- calc(), clamp()
+- rgb(), var()
+Architecture & Methodology
+- OOCSS (Object-Oriented CSS)
+- SMACSS (Scalable and Modular Architecture for CSS)
+Styling Best Practices
+- modular CSS
+- avoiding global styles
+Performance Optimization
+- critical CSS
+- minify
 
 - list classic CSS problems that are still relevant in modern CSS, like center a div
 - list CSS quirks that are still relevant in modern web development
-- cascading problem ?
 - CSS topics i should learn to avoid relying on frameworks
 
 # Resources
+https://www.joshwcomeau.com/css/custom-css-reset/
+https://learntheweb.courses/topics/css-layout-cheat-sheet/
+https://css-tricks.com/snippets/
 https://rehansaeed.com/css-general-rules-of-thumb
 https://youtu.be/vmJ9j6BdX_g?si=kksZx0s3l0i2C-aU
-https://www.joshwcomeau.com/css/custom-css-reset/
 
-Each step's styles override the previous ones, but more specific styles override less specific ones
-Media Queries - apply styles based on device characteristics
+Sass: pre-processor
+Tailwind CSS: utility-first framework
+https://necolas.github.io/normalize.css/

@@ -1,13 +1,23 @@
 #
-Forms
-- action, method
+# Res
+https://ohshitgit.com/
+https://doesitmutate.xyz/
+
+# Emmet HTML/CSS Abbreviations Syntax
 Tables
-
-Semantic
-![](https://static.semrush.com/blog/uploads/media/cc/85/cc85d452a743e27f68d426df35e4da7d/EN-Semantic-Search-Non-Semantic.webp)
-- <article> Represents self-contained, independent content
-- <section> Groups related content under a common theme
-
-ARIA (Accessible Rich Internet Applications)
 Custom Data Attributes
-Embedded Content iframe - inline
+- dataset
+Embed Content - iframe
+
+Custom Elements (Web Components)
+Web Storage (IndexedDB, LocalStorage, SessionStorage)
+https://youtu.be/GihQAC1I39Q?si=3C3iVkrkGqkE9SQI
+
+# Rem
+Focus on
+Accessibility Usability
+Performance Maintainability
+
+# Term
+ARIA (Accessible Rich Internet Applications)
+Modal (Popup)
