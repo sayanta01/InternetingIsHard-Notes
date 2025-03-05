@@ -1,22 +1,23 @@
 #
 https://flexbox.malven.co
-![](https://raw.githubusercontent.com/eludadev/css-docs/main/assets/css_flexbox.png)
+# ![](https://raw.githubusercontent.com/eludadev/css-docs/main/assets/css_flexbox.png)
+https://flexboxfroggy.com
 
 # Row --
-→ justify-content - main (horizontal)
-↑ align-items     - cross (vertical)
+l justify-content - main (horizontal)
+u align-items     - cross (vertical)
 # Column |
-↑ justify-content - main (vertical)
-→ align-items     - cross (horizontal)
+u justify-content - main (vertical)
+l align-items     - cross (horizontal)
 
 Manipulating items through their parent containers
 - configure the container, then the items
 - nested <div> elements in flexbox group items, providing better control over layout and alignment
 
 Flex: 0 1 auto
-- flex-grow: 1;      # can grow if there’s more room
-- flex-shrink: 1;    # can shrink if there’s less room
-- flex-basis: 100px; # the starting size of the item, but it's flexible!
+- flex-grow: 1;       # can grow if there’s more room
+- flex-shrink: 1;     # can shrink if there’s less room
+- flex-basis: 100px;  # the starting size of the item, but it's flexible!
 Fixed - width: 100px; # no growing/shrinking allowed
 
 Use "order" to customize the order of individual elements
@@ -26,17 +27,6 @@ Use "align-self" to vertically align individual items
 Align-content - unlocked on flex-wrap: wrap
 - only works when items wrap to multiple lines
 - aligns the entire group of flex lines on the cross axis
-
-# Res
-Selectors
-https://flukeout.github.io
-
-Flexbox
-# https://flexboxfroggy.com
-https://mastery.games/flexboxzombies
-
-Advanced
-https://css-speedrun.netlify.app
 
 # Vocab
 Arsenal: a collection of weapons and military equipment

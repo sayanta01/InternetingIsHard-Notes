@@ -8,7 +8,7 @@ Absolute - position elements inside other elements
 - if no positioned ancestor exists, it will be positioned relative to the <html> or <body>
 - always finds parent ^upward
 
-Fixed  - use on nav
+Fixed - use on nav
 Sticky - acts like a Fixed element when it reaches a defined point
 - only works when a top (or other offset) property is set
 

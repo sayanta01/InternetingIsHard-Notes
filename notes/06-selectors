@@ -1,5 +1,6 @@
-#
-![](https://github.com/eludadev/css-docs/blob/main/assets/css_selectors.png?raw=true)
+# ![](https://github.com/eludadev/css-docs/blob/main/assets/css_selectors.png?raw=true)
+https://flukeout.github.io
+https://css-speedrun.netlify.app
 
 Combinators
 - li.red - any li w/ the Class of red
@@ -70,7 +71,7 @@ Specificity Hierarchy
 - Inline styles > IDs > Classes, attributes, pseudo-classes > Elements, pseudo-elements
 - "order matters" concept only works when all your rules have the same specificity
 
-URL fragments # used to navigate to a specific part of a webpage
+URL Fragments # used to navigate to a specific part of a webpage
 
 # Terms
 BEM methodology (Block, Element, Modifier)

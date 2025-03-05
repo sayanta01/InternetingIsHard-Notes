@@ -8,8 +8,5 @@ Pointing a domain name at your server
 - A[Addr] record: link domain to IPv4
 - AAAA record: link domain to IPv6
 
-Build Tools
-- webpack
-
 # Vocab
 Orthogonal: independent

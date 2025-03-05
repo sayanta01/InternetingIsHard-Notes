@@ -9,7 +9,7 @@ Don't use semantic elements just to use them. Incorrect usage is worse than not 
 - should be connected to their closest section, like <section>, <article>, or <nav>
 ![](https://internetingishard.netlify.app/html-header-element-7b4e01.d7494385.png)
 
-Sectioning elements
+Sectioning Elements
 - helps search engines, screen readers and other tools to identify different parts of website
 - also helps you as a developer keep your site organized
 

@@ -1,8 +1,8 @@
 #
-Block elements  - takes the full width of its container (new line, full width)
-Inline elements - stays within the content flow (does not break line, only takes needed width)
+Block Elements  - takes the full width of its container (new line, full width)
+Inline Elements - stays within the content flow (does not break line, only takes needed width)
 
-Semantic elements - tags that clearly describe their content's purpose, improving accessibility, readability, and SEO
+Semantic Elements - tags that clearly describe their content's purpose, improving accessibility, readability, and SEO
 Empty HTML Elements - self-closing <br> <hr>
 
 # Terms

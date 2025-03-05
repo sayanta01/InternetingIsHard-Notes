@@ -1,12 +1,11 @@
 #
 To render correctly on a retina device, an image needs to be twice as big as its final display dimensions
 
-Fluid - layouts that adjust and resize based on the viewport or container size
+Fluid layouts that adjust and resize based on the viewport or container size
 Setting width: 100% allows the element to fill its container, with the height adjusting to maintain its aspect ratio
 Image dimensions are part of the content, so they should be specified in HTML, not CSS
 
-Responsive Image Optimization
-- mainly for small screens, as large screens typically show the best image
+Responsive Image Optimization - mainly for small screens, as large screens typically show the best image
 
 Screen Width Optimization Using srcset
 - retina smartphones download high-res images due to their pixel density, even when standard images would suffice
