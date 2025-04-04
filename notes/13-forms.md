@@ -24,7 +24,7 @@ Radio Buttons
 - legend   # title/label of the group
 - name     # groups radio buttons together # only one radio button with the same `name` can be selected at a time
 - value    # defines the data sent when selected
-  - <input type="radio" name="food" value="pizza"> Pizza # `pizza` will be sent to the server
+- <input type="radio" name="food" value="pizza"> Pizza # `pizza` will be sent to the server
 
 # Vendor-specific prefix # ensure compatibility across different browsers
 

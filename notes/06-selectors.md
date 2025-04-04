@@ -47,6 +47,8 @@ h1 + p # only the first <p> right after <h1>
 # <p>Not Selected</p> # because it's not immediately after <h1>
 
 ![](https://vsdentalcollege.edu.in/static/media/css.1a50a159.pdf)
+- "Pseudo" = false/not real—these selectors act like classes but are not explicitly defined in HTML
+- Instead of being applied manually in the markup (class="example"), they automatically style elements when they meet certain conditions
 Pseudo-class :targets elements based on their state (e.g., :hover, :focus)
 Structural
 # - :first-child # targets the first child of a parent

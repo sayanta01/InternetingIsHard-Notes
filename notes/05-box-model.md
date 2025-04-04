@@ -1,6 +1,6 @@
-#
+# Pseudo-elements style parts of elements they don’t exist in HTML but behave like extra elements
 *,
-*::before, # pseudo-elements
+*::before,
 *::after {
   margin: 0 # common reset
   padding: top right bottom left (clockwise)
