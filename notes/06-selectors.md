@@ -3,7 +3,7 @@ https://flukeout.github.io
 https://css-speedrun.netlify.app
 
 Combinators
-- li.red - any li w/ the Class of red
+- li.red - any li w/ the class of red
 - Descendant Selector - Selects all <b> elements inside <div> regardless of its nesting level
 # div b {}
 # <div>
@@ -48,19 +48,21 @@ h1 + p # only the first <p> right after <h1>
 
 ![](https://vsdentalcollege.edu.in/static/media/css.1a50a159.pdf)
 - "Pseudo" = false/not real—these selectors act like classes but are not explicitly defined in HTML
-- Instead of being applied manually in the markup (class="example"), they automatically style elements when they meet certain conditions
-Pseudo-class :targets elements based on their state (e.g., :hover, :focus)
-Structural
-# - :first-child # targets the first child of a parent
-# - :last-child and :nth-child(n)
-Specific
-# - p:last-of-type { color: white; } # targets the last <p> in its parent
-Conditional
-# - :not() # excludes elements that match a certain rule
-# - :has()
+  Instead of being applied manually in the markup (class="example")
+  they automatically style elements when they meet certain conditions
 
-Pseudo-element :targets a specific part of an element's content (e.g., ::before ::after ::selection ::first-line/letter)
-- don't work on self-closing tags because they have no content for the pseudo-elements to target
+Pseudo-class - targets elements based on their state
+Types of Pseudo-class:
+- User Interaction / State-Based - :hover, :focus, :active
+- Structural / Position-Based - :first-child, :nth-child()
+  p:last-of-type { color: white; } # target the last <p> in it's parent
+- Form-Related - :checked, :disabled, :required, :invalid
+- Logical / Functional - :not(), :is(), :has(), :where()
+- Link State - :link, :visited
+- Target and UI State - :lang(), :dir()
+
+Pseudo-element - targets a specific part of an element's content (e.g., ::before ::after ::selection ::first-line/letter)
+- Don't work on self-closing tags because they have no content for the pseudo-elements to target
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
 Attribute Selector # Targets elements with specific attributes or attribute values
@@ -73,7 +75,7 @@ Specificity Hierarchy
 - Inline styles > IDs > Classes, attributes, pseudo-classes > Elements, pseudo-elements
 - "order matters" concept only works when all your rules have the same specificity
 
-URL Fragments # used to navigate to a specific part of a webpage
+URL Fragments - used to navigate to a specific part of a webpage
 
 # Terms
 BEM methodology (Block, Element, Modifier)
